@@ -1,0 +1,825 @@
+{
+	"wifi":[
+		{
+			"id":1,
+			"name": "WiFiレンタル屋さん",
+			"score": {
+				"review": "★★★★★",
+				"value" : 1
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 1
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 1
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"price_dom":"<table><caption>レンタル期間・料金</caption><thead><tr><th>1日短期レンタル</th><th>1ヶ月長期レンタル</th></tr></thead><tbody><tr><td>450円〜</td><td>6750円～</td></tr></tbody></table>",
+			"image_url":"img/logo01.png",
+			"detail":"detail01.html",
+			"url":"http://www.rental-store.jp/"
+		},
+		{
+			"id":2,
+			"name":"softbankWiFiレンタル店",
+			"score": {
+				"review" : "★★★★",
+				"value" : 2
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":false,
+				"au":false,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 2
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 2
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo02.png",
+			"detail":"detail02.html",
+			"url":"http://sb.wifi-rental-store.jp/"
+		},
+		{
+			"id":3,
+			"name":"auWiFiレンタル店",
+			"score": {
+				"review" : "★★★★",
+				"value" : 3
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":false,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 3
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 3
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo03.png",
+			"detail":"detail03.html",
+			"url":"http://au.wifi-rental-store.jp/"
+		},
+		{
+			"id":4,
+			"name":"ププル",
+			"score": {
+				"review" : "★★★★",
+				"value" : 4
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":false,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 15
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 11
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo04.png",
+			"detail":"detail04.html",
+			"url":"http://www.pupuru.com/service/emobile/"
+		},
+		{
+			"id":5,
+			"name":"WIFI-HIRE",
+			"score": {
+				"review" : "★★★",
+				"value" : 5
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":false,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 4
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 4
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo05.png",
+			"detail":"detail05.html",
+			"url":"http://www.wifi-hire.com/ja"
+		},
+		{
+			"id":6,
+			"name":"ネットエイジ",
+			"score": {
+				"review" : "★★★",
+				"value" : 6
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": false
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 5
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 5
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo06.png",
+			"detail":"detail06.html",
+			"url":"http://www.netage.ne.jp/"
+		},
+		{
+			"id":7,
+			"name":"TRE mobile RENTAL",
+			"score": {
+				"review" : "★★★",
+				"value" : 7
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":false,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": false,
+				"shop": true,
+				"value": 12
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 12
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo07.png",
+			"detail":"detail07.html",
+			"url":"http://mobile-rental.jp/"
+		},
+		{
+			"id":8,
+			"name":"JAL ABC",
+			"score": {
+				"review" : "★★★",
+				"value" : 8
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":false,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": false,
+				"airport": true,
+				"shop": true,
+				"value": 13
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 13
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo08.png",
+			"detail":"detail08.html",
+			"url":"http://www.mobile.jalabc.com/service/dom-wifi.html#wifi"
+		},
+		{
+			"id":9,
+			"name":"テレコムスクエア",
+			"score": {
+				"review" : "★★★",
+				"value" : 9
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":false,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": false,
+				"airport": true,
+				"shop": true,
+				"value": 14
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 14
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo09.png",
+			"detail":"detail09.html",
+			"url":"http://biz.telecomsquare.co.jp/telecomsquare/data/data02.html#wifi"
+		},
+		{
+			"id": 10,
+			"name":"NINJA WiFi",
+			"score": {
+				"review" : "★★★",
+				"value" : 10
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":false,
+				"au":true,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 6
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 6
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo10.png",
+			"detail":"detail10.html",
+			"url":"http://ninjawifi.com/jp/"
+		},
+		{
+			"id": 11,
+			"name":"WI-FIチャンネル",
+			"score": {
+				"review" : "★★★",
+				"value" : 11
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 7
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 15
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo11.png",
+			"detail":"detail11.html",
+			"url":"http://www.wifi-ch.net/lp02/"
+		},
+		{
+			"id": 12,
+			"name":"Wi-Fiレンタルサービス",
+			"score": {
+				"review" : "★★",
+				"value" : 17
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":true,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 8
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 16
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo12.png",
+			"detail":"detail12.html",
+			"url":"http://wifi-rent.jp/"
+		},
+		{
+			"id": 13,
+			"name":"e-ca (イーカ)",
+			"score": {
+				"review" : "★★★",
+				"value" : 12
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":true,
+				"au":false,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 16
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 17
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo13.png",
+			"detail":"detail13.html",
+			"url":"https://www.e-ca.jp/"
+		},
+		{
+			"id": 14,
+			"name":"Wifiレンタル.com",
+			"score": {
+				"review" : "★★",
+				"value" : 18
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":true,
+				"au":false,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 17
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": false,
+				"hantai": false,
+				"value": 8
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo14.png",
+			"detail":"detail14.html",
+			"url":"https://www.wifi-rental.com/"
+		},
+		{
+			"id": 15,
+			"name":"WiFiレンタル本舗",
+			"score": {
+				"review" : "★★★",
+				"value" : 13
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 18
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 18
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo15.png",
+			"detail":"detail15.html",
+			"url":"http://wifi-honpo.com/"
+		},
+		{
+			"id": 16,
+			"name":"MOBILEGATE",
+			"score": {
+				"review" : "★★",
+				"value" : 19
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 19
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": false,
+				"hantai": false,
+				"value": 9
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo16.png",
+			"detail":"detail16.html",
+			"url":"http://www.rakuten.ne.jp/gold/mobile-gate/"
+		},
+		{
+			"id": 17,
+			"name":"WiFiレンタル便",
+			"score": {
+				"review" : "★★",
+				"value" : 20
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":true,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 9
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": false,
+				"hantai": false,
+				"value": 10
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo17.png",
+			"detail":"detail17.html",
+			"url":"http://item.rakuten.co.jp/rtm-select/wimax_04/"
+		},
+		{
+			"id": 18,
+			"name":"カシモバ",
+			"score": {
+				"review" : "★★★",
+				"value" : 14
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":false,
+				"softbank":false
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 10
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 19
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo18.png",
+			"detail":"detail18.html",
+			"url":"https://www.kashimob.com/"
+		},
+		{
+			"id": 19,
+			"name":"どこでもネット",
+			"score": {
+				"review" : "★★★",
+				"value" : 15
+			},
+			"carrier":{
+				"ymobile":true,
+				"wimax":true,
+				"au":true,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": true,
+				"value": 11
+			},
+			"language":{
+				"japanese": true,
+				"english": false,
+				"kantai": false,
+				"hantai": false,
+				"value": 20
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo19.png",
+			"detail":"detail19.html",
+			"url":"http://doco-demo.jp/"
+		},
+		{
+			"id": 20,
+			"name":"JAPAN WiFi Rental",
+			"score": {
+				"review" : "★★★",
+				"value" : 16
+			},
+			"carrier":{
+				"ymobile":false,
+				"wimax":false,
+				"au":false,
+				"softbank":true
+			},
+			"period":{
+				"short": true,
+				"long": true
+			},
+			"receive":{
+				"delivery": true,
+				"airport": true,
+				"shop": false,
+				"value": 20
+			},
+			"language":{
+				"japanese": true,
+				"english": true,
+				"kantai": true,
+				"hantai": true,
+				"value": 7
+			},
+			"area":{
+				"hokkaido": true,
+				"honshu": true,
+				"shikoku": true,
+				"kyushu": true,
+				"okinawa": true
+			},
+			"image_url":"img/logo20.png",
+			"detail":"detail20.html",
+			"url":"http://japan-wifi-rental.net/"
+		}
+	]
+}
